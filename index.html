@@ -1,0 +1,74 @@
+<style>
+    .form-da-noite {
+      background-color: #1e1e2f;
+      color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      font-family: 'Segoe UI', sans-serif;
+      box-shadow: 0 0 20px rgba(255, 0, 128, 0.3);
+    }
+  
+    .form-da-noite h2 {
+      text-align: center;
+      color: #ff0080;
+      margin-bottom: 20px;
+    }
+  
+    .form-da-noite label {
+      display: block;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+  
+    .form-da-noite input,
+    .form-da-noite textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      margin-top: 5px;
+      background-color: #2c2c3e;
+      color: #fff;
+    }
+  
+    .form-da-noite input:focus,
+    .form-da-noite textarea:focus {
+      outline: none;
+      box-shadow: 0 0 5px #ff0080;
+    }
+  
+    .form-da-noite button {
+      background-color: #ff0080;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      margin-top: 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+  
+    .form-da-noite button:hover {
+      background-color: #d6006b;
+    }
+  </style>
+  
+  <form class="form-da-noite" action="https://formspree.io/f/YOUR_ID" method="POST">
+    <h2>💬 Fale com Vitor</h2>
+  
+    <label for="nome">Seu nome</label>
+    <input type="text" id="nome" name="nome" required />
+  
+    <label for="email">Seu e-mail</label>
+    <input type="email" id="email" name="email" required />
+  
+    <label for="mensagem">Mensagem quente</label>
+    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Diz aí o que você precisa... 👀" required></textarea>
+  
+    <button type="submit">Enviar para o Vitor 🌙</button>
+  </form>
+  
